@@ -26,6 +26,7 @@
     // start the MySQL engine;
     try {
         new Driver();
+        // connect the DB;
         Connection connection = DriverManager.getConnection("jdbc:mysql://192.168.10.142:3306/dbj2?user=root&password=ak47m4a1");
         String sql = "INSERT INTO dbj2.users VALUE(NULL,?,?,?)";
         PreparedStatement preparedStatement = connection.prepareStatement(sql);

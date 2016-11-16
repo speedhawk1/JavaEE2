@@ -12,13 +12,12 @@
   </head>
   <body>
   <h1>index page</h1>
-  <form>
-  <%--<%=session.getId()%>--%>
+  <%=session.getId()%>
   <%--获取登陆ID--%>
-  <%--<form action="register.jsp" method="post">--%>
-    <%--<input type="text" name="email" placeholder="EMAIL">--%>
-    <%--<input type="text" name="password" placeholder="PASSWORD">--%>
-    <%--<input type="submit" value="LOG IN">--%>
+  <form action="/login.jsp" method="post">
+    <input type="text" name="email" placeholder="EMAIL"><br>
+    <input type="text" name="password" placeholder="PASSWORD"><br>
+    <input type="submit" value="LOG IN">
   </form>
   <h1 >
     <a href="signup.jsp">Sign up</a>
