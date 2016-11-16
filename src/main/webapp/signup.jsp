@@ -11,7 +11,7 @@
     <title>Title</title>
 </head>
 <body>
-<form action="register.jsp" method="post">
+<form action="/register.jsp" method="post">
     <input type="text" name="email" placeholder="EMAIL"><br>
     <input type="text" name="password" placeholder="PASSWORD"><br>
     <select name="subject" multiple="multiple">

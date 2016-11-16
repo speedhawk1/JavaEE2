@@ -10,6 +10,8 @@ CREATE TABLE dbj2.users(
   subject VARCHAR(255) COMMENT 'subject'
 );
 
+SELECT * FROM dbj2.users;
+
 SELECT user,host FROM mysql.user;
 
 # 更改远程访问IP
